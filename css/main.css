@@ -50,9 +50,8 @@
 }
 
 .feed-item-desc {
+  background-color: #222;
   border-radius: 25px;
-  background-position: left top;
-  background-repeat: repeat;
   padding: 20px; 
   width: 75%px;
   height: 40%px; 
