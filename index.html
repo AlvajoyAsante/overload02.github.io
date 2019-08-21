@@ -3,11 +3,74 @@
   <head>
       <meta charset="utf-8">
       <title>Overload02 | Home</title>
-      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+  * {
+  font-family: Lato, sans-serif;
+  color: #aaa;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+.feed-item-title {
+  width: fit-content;
+  margin: 10px auto;
+  font-weight: bolder;
+  color: #000000;
+  font-size: 15px;
+}
+
+.feed-item-desc {
+  border-radius: 25px;
+  margin: 0 auto;
+  background-color: #222;
+  width: 75%;
+  padding: 10px;
+}
+      </style>
   </head>
   
-  <body>
+  <body style="margin: 0;">
       <center><h1> Overload02 | Home</h1></center>
       <!-- Top navigation -->
 <div class="topnav">
@@ -39,9 +102,10 @@
       <div style="text-indent: 40px">
       <h3><u>Latest Updates</u></h3>
        </div>
+        <br />
         <div>
-        <br><p><script src="//rss.bloople.net/?url=https%3A%2F%2Fwebchatnews.blogspot.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&showtitle=false&type=js"></script></p>
-    </div>
+        <p><script src="//rss.bloople.net/?url=https%3A%2F%2Fwebchatnews.blogspot.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&showtitle=false&type=js"></script></p>
+     	</div>
   </body>
-</html>
 
+</html>
