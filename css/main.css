@@ -41,7 +41,7 @@
   float: right;
 }
 .feed-item-title {
-  text-indent: 40px
+  text-indent: 40px;
   width: fit-content;
   margin: 10px auto;
   font-weight: bolder;
@@ -51,8 +51,5 @@
 
 .feed-item-desc {
   background-color: #222;
-  border-radius: 25px;
-  padding: 20px; 
-  width: 75%px;
-  height: 40%px; 
+  text-indent: 40px;
 }
