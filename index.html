@@ -3,7 +3,7 @@
   <head>
       <meta charset="utf-8">
       <title>Overload02 | Home</title>
-      <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+      <link rel="stylesheet" type="text/css" href="css/main.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <style>
   * {
@@ -31,6 +31,9 @@ body {
 }
 
 .topnav a:hover {
+border: 2px solid black;
+  border-radius: 13px; 
+  border-spacing: 0; 
   background-color: #ddd;
   color: black;
 }
@@ -54,24 +57,40 @@ body {
 
 .feed-item-title {
   width: fit-content;
-  margin: 10px auto;
+  text-indent: 62px;
   font-weight: bolder;
-  color: #000000;
   font-size: 15px;
 }
 
 .feed-item-desc {
   border-radius: 25px;
+  border: 3px solid #4CAF50;
   margin: 0 auto;
-  background-color: #222;
+  background-color: Gray;
   width: 75%;
   padding: 10px;
 }
+
+table {
+  border: 2px solid black;
+  border-radius: 13px; 
+  border-spacing: 0; 
+}
+
+table.roundedCorners th { 
+  border-bottom: 1px solid black;
+  background-color: #333;
+  color: white;
+  }
+
       </style>
   </head>
   
   <body style="margin: 0;">
+  <!-- -->
+  <table></table>
       <center><h1> Overload02 | Home</h1></center>
+      
       <!-- Top navigation -->
 <div class="topnav">
 
@@ -89,23 +108,23 @@ body {
     <a href="#search">Search</a>
     <a href="#about">About</a>
   </div>
-  
-</div>
-
-<div style="padding-left:16px">
 </div>
     <center>
       <h4><p> Welcome to my Website!!<br>This is where I give updates on my program developements.</p></h4>
       </center>
+      <hr>
       <br>
-      
-      <div style="text-indent: 40px">
-      <h3><u>Latest Updates</u></h3>
-       </div>
-        <br />
-        <div>
+        <table style="width:100%" id="t01" class="roundedCorners">
+        	<tr>
+            	<th>Lastest Post Update</th>
+            </tr>
+           
+            <tr>
+            	<td><div>
         <p><script src="//rss.bloople.net/?url=https%3A%2F%2Fwebchatnews.blogspot.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&showtitle=false&type=js"></script></p>
-     	</div>
+     	</div></td>
+            </tr>
+        </table>
   </body>
 
 </html>
