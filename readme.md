@@ -1,1 +1,17 @@
-This is a simple website made by Overload02. this website is for projects that I will create later on. 
+# Alvajoy123 Projects Website
+
+![](https://i.imgur.com/6T3oN87.png)
+
+![](https://img.shields.io/github/issues/Overload02/overload02.github.io?style=plastic) ![](https://img.shields.io/twitter/url?style=social)
+
+***"Currentlly Under Development."***
+
+### Features
+- Shows Current and upcoming projects, view of all and any upcoming projects.
+- Allow for users to comment, leave comments on future projects and more.
+- Report bugs, website allows  bugs to be reported and much more.
+
+
+------------
+
+ &copy; Copyright 2020 - 2021 Alvajoy Asante
